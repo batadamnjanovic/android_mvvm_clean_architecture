@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/textView_commitMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:textStyle="bold"
+        tools:text="Commit message" />
+
+    <TextView
+        android:id="@+id/textView_committerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:textStyle="bold"
+        tools:text="Committer name" />
+
+    <TextView
+        android:id="@+id/textView_committerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Committer email" />
+
+    <TextView
+        android:id="@+id/textView_committerDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        tools:text="Committer date" />
+
+    <TextView
+        android:id="@+id/textView_authorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="Author name" />
+
+    <TextView
+        android:id="@+id/textView_authorEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Author email" />
+
+    <TextView
+        android:id="@+id/textView_authorDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Author date" />
+
+</LinearLayout>

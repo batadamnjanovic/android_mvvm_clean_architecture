@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rs.hc.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".HcApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="rs.hc.android.ui.userdetails.view.UserDetailsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.userrepos.view.UserReposActivity"
+            android:label="@string/list_of_repos"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.commitdetails.view.CommitsActivity"
+            android:label="@string/commits"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
